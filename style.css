@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* top-bar start */
+.top-bar{
+    background: #a81b1b;
+    color: #fff;
+    padding: 2vmin 10vmin;
+    display: flex;
+    justify-content: space-between;
+}
+.top-bar  a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;  
+}
+/* top-bar end */
+
+/* nav-bar start */
+
+.container{
+    width: 100vw;
+    height: 25vh;
+    /* background: #354; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-bar{
+   width: 90vw;
+    /* color: #fff; */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+ul{
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 20px;
+    
+}
+ul li a{
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.search{
+    width: 50vmin;
+    padding: 10px;
+    border-radius: 20px;
+    background: rgb(223, 222, 222);
+    /* color: #fff; */
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+.fa-magnifying-glass{
+    margin-right: 10px;
+    color: #000;
+}
+input{
+    flex: 1;
+    background-color: transparent;
+    border: none;
+
+}
+
+
+.icons img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* nav-bar end */
+
+/* hero-section start */
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.hero h1{
+    font-size: 50px;
+}
+.btn{
+    background: #a81b1b;
+    color: #fff;
+    margin-top: 3vmin;
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+}
+.more{
+    display: flex;
+    align-items: center;
+    margin-top: 3vmin;
+
+    
+    
+}
+.more h4{
+    font-size: 25px;   
+}
+.more p{
+    margin-right: 6vmin;
+}
+/* hero-section end */
+/* brands start */
+.brands{
+    margin-bottom: 50vmin;
+    height: 130px;
+    background-color: #a81b1b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    /* margin-top: 6vmin; */
+}
+/* brands end */
+
+/* footer start */
+.footer{
+    height: 50vmin;
+    background-color: #d3c2c2;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+.footer ul{
+    display: flex;
+    flex-direction: column;
+}
+.footer h3{
+    color: #000;
+    font-weight: 400;
+    margin-left: 25px;
+}
+.footer a{
+font-weight: 300;
+}
+.footer p{
+    color: #000;
+}
+.footer h1{
+    color: #000;
+}
+.footer .fa-brands {
+    color: #000;
+    margin-right: 15px;
+    margin-top: 10px;
+    font-size: 30px;
+
+}
